@@ -2,7 +2,12 @@
     border-radius: 100%;
     max-width: 150px;
     border:1px solid black;
-    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -5;
+    bottom: -5;
+    margin: auto;
 }
 
 .img-profile {
@@ -44,30 +49,30 @@
   
 
 .coluna{
-    background-color: #0D0F76;
+    background-color: #0f6868;
     padding-left: 0;
     padding-right: 0;
-    text-align: inherit;
+    text-align: left;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     flex-shrink: inherit;
-    align-self: flex-start;
-    width: 17rem;
+    font-size: 13px;
+    width: 16rem;
     height: 100vh;
-    flex-wrap: wrap; 
     color: white;
 }
 
-.container{
-    width: 57%;
+.container
+{
+    width: 70%;
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-left: 265px;
     margin-right: auto;
-    margin-left: auto;
 }
 .social-icons .social-icon {
     display: inline-flex;
@@ -75,8 +80,8 @@
     justify-content: center;
     height: 2.5rem;
     width: 2.5rem;
-    background-color: gray;
-    color: blue;
+    background-color: #8c8f92;
+    color: #1411e7;
     border-radius: 100%;
     font-size: 1.5rem;
     margin-right: 1.5rem;
@@ -97,7 +102,8 @@
   }
 
   .dev-icons {
-    font-size: 3rem;
+    color:#1411e7;
+    font-size: 2.5rem;
   }
 
   .list-inline {
@@ -151,3 +157,10 @@
     list-style: none;
   }
   
+  .text-primary {
+    color:#09aa5a;
+  }
+
+  .text-secondary{
+    color:#8c8f92;
+  }
